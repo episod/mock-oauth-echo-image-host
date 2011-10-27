@@ -14,3 +14,5 @@ Usage:
 * Requests containing the appropriate OAuth Echo HTTP headers or parameters will be executed against the service provider indicated in those headers.
   * A XML 200 OK response will be returned if the OAuth Echo request was succesful
   * A XML 401 response will be returned if it was not.
+
+* See app/controllers/api_controller.rb for the meaty bits.
