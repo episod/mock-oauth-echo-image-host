@@ -1,0 +1,20 @@
+have_header: checking for re.h... -------------------- yes
+
+"gcc -E -I/opt/local/include -I. -I/Users/taylorsingletary/.rvm/rubies/ree-1.8.7-2011.03/lib/ruby/1.8/i686-darwin10.7.4 -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O3  -pipe -fno-common   -Wall  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <re.h>
+/* end */
+
+--------------------
+
+have_header: checking for ruby/st.h... -------------------- yes
+
+"gcc -E -I/opt/local/include -I. -I/Users/taylorsingletary/.rvm/rubies/ree-1.8.7-2011.03/lib/ruby/1.8/i686-darwin10.7.4 -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -g -O3  -pipe -fno-common   -Wall  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <ruby/st.h>
+/* end */
+
+--------------------
+

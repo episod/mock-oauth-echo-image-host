@@ -1,0 +1,16 @@
+This is a very small Ruby on Rails app that mocks the content provider role in the unofficial OAuth Echo protocol. The responses it provides are reminiscent of the API for image providers like TwitPic, Lockerz, etc.
+
+It requires no database and has no real view layer.
+
+Usage:
+
+* The server runs by default on port 3000:
+   ./script/server
+
+* It provides a /api/upload end point.
+  * pass success=1 to force success without performing the echo'd request.
+  * pass fail=1 to force failure without performing the echo'd request
+
+* Requests containing the appropriate OAuth Echo HTTP headers or parameters will be executed against the service provider indicated in those headers.
+  * A XML 200 OK response will be returned if the OAuth Echo request was succesful
+  * A XML 401 response will be returned if it was not.
