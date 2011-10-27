@@ -10,7 +10,8 @@ Usage:
 * It provides a /api/upload end point.
   * pass success=1 to force success without performing the echo'd request.
   * pass fail=1 to force failure without performing the echo'd request
-
+  * pass media_id=xyz to change mock file name of the uploaded image
+  * pass media_url=http://domain.com to change mock domain of the uploaded image
 * Requests containing the appropriate OAuth Echo HTTP headers or parameters will be executed against the service provider indicated in those headers.
   * A XML 200 OK response will be returned if the OAuth Echo request was succesful
   * A XML 401 response will be returned if it was not.
